@@ -4,7 +4,7 @@ description: "Databricks workspace development — notebooks, Spark jobs, Delta 
 model: sonnet
 color: "#FF3621"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [databricks, spark, pyspark, delta lake, unity catalog, databricks notebook, databricks job, databricks cluster, databricks workspace]
 hooks_into:
   - after-init

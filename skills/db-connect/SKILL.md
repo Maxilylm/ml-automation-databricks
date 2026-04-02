@@ -2,7 +2,7 @@
 name: db-connect
 description: "Setup Databricks workspace connection. Configures authentication (PAT, OAuth, Service Principal), validates cluster access, and stores connection profile."
 aliases: [databricks connect, databricks auth, databricks login, databricks setup]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

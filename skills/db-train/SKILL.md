@@ -2,7 +2,7 @@
 name: db-train
 description: "Train ML models on Databricks with Spark MLlib or MLflow-tracked sklearn. Handles feature engineering, hyperparameter tuning, and model registration."
 aliases: [databricks train, spark ml, spark mllib, databricks model, mlflow train]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

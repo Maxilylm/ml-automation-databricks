@@ -1,7 +1,7 @@
 """
-Databricks utilities for the ml-automation-databricks extension plugin.
+Databricks utilities for the spark-databricks extension plugin.
 
-Requires ml_utils.py from the ml-automation core plugin to be present
+Requires ml_utils.py from the spark core plugin to be present
 in the same directory (copied via Stage 0 of Databricks commands).
 """
 
@@ -184,7 +184,7 @@ def get_databricks_connection(profile="DEFAULT"):
     return connection
 
 
-def get_spark_session(app_name="ml-automation-databricks", master=None):
+def get_spark_session(app_name="spark-databricks", master=None):
     """Get or create a SparkSession.
 
     Detects Databricks runtime vs. local environment and configures

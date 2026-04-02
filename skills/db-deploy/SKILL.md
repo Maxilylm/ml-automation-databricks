@@ -2,7 +2,7 @@
 name: db-deploy
 description: "Deploy models and pipelines to Databricks — model serving endpoints, scheduled jobs, or Delta Live Tables pipelines."
 aliases: [databricks deploy, databricks serve, databricks endpoint, databricks job, model serving]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

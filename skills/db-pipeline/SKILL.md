@@ -2,7 +2,7 @@
 name: db-pipeline
 description: "Build Spark data transformation pipelines. Generates modular ETL/ELT with Delta Lake, Delta Live Tables, or Structured Streaming."
 aliases: [databricks pipeline, spark etl, delta live tables, spark streaming, databricks etl]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

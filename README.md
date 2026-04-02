@@ -1,4 +1,4 @@
-# ml-automation-databricks
+# spark-databricks
 
 Databricks development and ML automation extension for [ml-automation](https://github.com/Maxilylm/ml-automation-core).
 
@@ -12,7 +12,7 @@ Databricks development and ML automation extension for [ml-automation](https://g
 ## Installation
 
 ```bash
-claude plugin add /path/to/ml-automation-databricks
+claude plugin add /path/to/spark-databricks
 ```
 
 ## What's Included

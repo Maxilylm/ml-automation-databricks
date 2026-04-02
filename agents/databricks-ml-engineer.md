@@ -4,7 +4,7 @@ description: "Train and deploy ML models on Databricks using Spark MLlib, MLflow
 model: sonnet
 color: "#E8320A"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [spark mllib, mlflow, databricks ml, databricks model, databricks feature store, databricks serving, spark ml pipeline]
 hooks_into:
   - before-deploy

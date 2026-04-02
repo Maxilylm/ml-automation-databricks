@@ -4,7 +4,7 @@ description: "Deploy models and pipelines to Databricks — model serving endpoi
 model: sonnet
 color: "#A01800"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [databricks deploy, databricks serving, delta live tables, databricks job, databricks workflow, databricks endpoint]
 ---
 

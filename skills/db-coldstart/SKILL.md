@@ -2,7 +2,7 @@
 name: db-coldstart
 description: "Full Databricks ML workflow — connect, ingest to Delta Lake, EDA, feature engineering, Spark MLlib/sklearn training with MLflow, model registration, and optional serving deployment."
 aliases: [databricks coldstart, databricks workflow, databricks ml pipeline, databricks end to end]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

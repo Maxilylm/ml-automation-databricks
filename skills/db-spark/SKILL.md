@@ -2,7 +2,7 @@
 name: db-spark
 description: "Generate PySpark code from natural language. Produces optimized Spark DataFrame or Spark SQL code with proper conventions."
 aliases: [pyspark generate, spark code, spark sql, pyspark help]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

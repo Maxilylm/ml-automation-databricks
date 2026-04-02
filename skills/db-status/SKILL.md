@@ -2,7 +2,7 @@
 name: db-status
 description: "Check Databricks workspace resources — clusters, jobs, models, serving endpoints, and Delta tables with health alerts."
 aliases: [databricks status, databricks check, databricks resources, databricks health, workspace status]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 
