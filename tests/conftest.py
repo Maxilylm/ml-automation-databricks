@@ -10,7 +10,7 @@ def mock_llm_response():
     """Fixture providing a mock LLM response."""
     return {
         "content": "Test response",
-        "model": "claude-test",
+        "model": "claude-opus-4-7",
         "stop_reason": "end_turn",
     }
 
