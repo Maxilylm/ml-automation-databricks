@@ -19,12 +19,12 @@ claude plugin add /path/to/spark-databricks
 
 ### Agents
 
-| Agent | Purpose | Hooks Into |
-|---|---|---|
-| `databricks-engineer` | Workspace development — notebooks, Spark jobs, Delta Lake, Unity Catalog | `after-init` |
-| `databricks-ml-engineer` | Train and deploy ML models with Spark MLlib, MLflow, Feature Store | `before-deploy` |
-| `databricks-reviewer` | Review Spark jobs for performance, cost optimization, best practices | `after-evaluation` |
-| `databricks-deployer` | Deploy to model serving endpoints, scheduled jobs, Delta Live Tables | *(direct invocation)* |
+| Agent | Purpose |
+|---|---|
+| `databricks-engineer` | Workspace development — notebooks, Spark jobs, Delta Lake, Unity Catalog |
+| `databricks-ml-engineer` | Train and deploy ML models with Spark MLlib, MLflow, Feature Store |
+| `databricks-reviewer` | Review Spark jobs for performance, cost optimization, best practices |
+| `databricks-deployer` | Deploy to model serving endpoints, scheduled jobs, Delta Live Tables |
 
 ### Commands
 

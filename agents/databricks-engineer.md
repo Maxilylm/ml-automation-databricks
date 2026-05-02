@@ -6,8 +6,6 @@ color: "#FF3621"
 tools: [Read, Write, Bash(*), Glob, Grep]
 extends: spark
 routing_keywords: [databricks, spark, pyspark, delta lake, unity catalog, databricks notebook, databricks job, databricks cluster, databricks workspace]
-hooks_into:
-  - after-init
 ---
 
 # Databricks Engineer
