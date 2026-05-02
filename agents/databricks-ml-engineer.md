@@ -6,8 +6,6 @@ color: "#E8320A"
 tools: [Read, Write, Bash(*), Glob, Grep]
 extends: spark
 routing_keywords: [spark mllib, mlflow, databricks ml, databricks model, databricks feature store, databricks serving, spark ml pipeline]
-hooks_into:
-  - before-deploy
 ---
 
 # Databricks ML Engineer

@@ -6,8 +6,6 @@ color: "#C41E00"
 tools: [Read, Write, Bash(*), Glob, Grep]
 extends: spark
 routing_keywords: [databricks review, spark optimize, databricks cost, spark performance, databricks best practices, spark shuffle]
-hooks_into:
-  - after-evaluation
 ---
 
 # Databricks Reviewer
