@@ -1,10 +1,10 @@
 # spark-databricks
 
-Databricks development and ML automation extension for [ml-automation](https://github.com/Maxilylm/ml-automation-core).
+Databricks development and ML automation extension for [ml-automation](https://github.com/BLEND360/ml-automation-core).
 
 ## Prerequisites
 
-- [ml-automation](https://github.com/Maxilylm/ml-automation-core) core plugin (>= v1.8.0)
+- [ml-automation](https://github.com/BLEND360/ml-automation-core) core plugin (>= v1.8.0)
 - Claude Code CLI
 - Databricks workspace access (workspace URL + authentication)
 - PySpark (local development) or Databricks Runtime (workspace execution)

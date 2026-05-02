@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Databricks development and ML automation extension for spark. Spark MLlib, Delta Lake, Unity Catalog, MLflow integration, and Databricks deployment.",
   "author": { "name": "Maximo Lorenzo y Losada" },
-  "repository": "https://github.com/Maxilylm/ml-automation-databricks",
+  "repository": "https://github.com/BLEND360/ml-automation-databricks",
   "license": "MIT",
   "keywords": ["databricks", "spark", "delta-lake", "unity-catalog", "mlflow", "pyspark", "spark-extension"],
   "dependencies": ["spark-core"]
